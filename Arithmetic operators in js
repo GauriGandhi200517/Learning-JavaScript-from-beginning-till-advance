@@ -1,0 +1,51 @@
+// arithmetic operators
+const x = 12;
+const y = 3;
+
+ //Addition:
+console.log(x + y); // Outputs: 15
+
+//Subtraction:
+console.log(x - y); // Outputs: 9
+
+//Multiplication:
+console.log(x * y); // Outputs: 36
+
+//Division:
+console.log(x / y); // Outputs: 4
+
+Remainder:
+console.log(x % y); // Outputs: 0
+
+//Exponentiation:
+console.log(x ** 2); // Outputs: 144
+console.log(y ** 3); // Outputs: 27
+
+//Adding Strings and Numbers
+//When adding a string and a number, JavaScript treats the number as a string and concatenates them.
+const x2 = "12";
+const y2 = "3";
+console.log(x2 + y2); // Outputs: "123"
+
+const x3 = 12;
+const y3 = "3";
+console.log(x3 + y3); // Outputs: "123"
+console.log(x3 - y3); // Outputs: 9
+console.log(x3 * y3); // Outputs: 36
+console.log(x3 / y3); // Outputs: 4
+console.log(x3 % y3); // Outputs: 0
+
+const userInput = "42"; // Simulating user input
+const numberInput = Number(userInput);
+
+if (!isNaN(numberInput)) {
+    console.log(numberInput + 8); // Outputs: 50
+} else {
+    console.log('Invalid input');
+}
+// Using parseInt to convert string to number
+const stringInput = "42";
+const parsedNumber = parseInt(stringInput, 10);     
+if (!isNaN(parsedNumber)) {
+    console.log(parsedNumber + 8); // Outputs: 50
+}
